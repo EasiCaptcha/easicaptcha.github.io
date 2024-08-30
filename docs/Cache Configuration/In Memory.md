@@ -14,10 +14,10 @@ To enhance security, the library uses a caching service. By default, the caching
 
 ```csharp
 
-builder.Services.AddBabyCaptcha(babyOption =>
+builder.Services.AddEasiCaptcha(easiOption =>
 {
 
-    babyOption.CacheConfiguration.UseInMemory(option =>
+    easiOption.CacheConfiguration.UseInMemory(option =>
     {
         option.Key = "Custom_Name_for_Cache";
         option.ExpirationScanFrequency = TimeSpan.FromMinutes(1);

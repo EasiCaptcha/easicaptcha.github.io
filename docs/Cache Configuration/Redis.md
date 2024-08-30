@@ -15,10 +15,10 @@ For distributed systems and architectures such as microservices, this library su
 
 ```csharp
 
-builder.Services.AddBabyCaptcha(babyOption =>
+builder.Services.AddEasiCaptcha(easiOption =>
 {
 
-    babyOption.CacheConfiguration.UseRedis(option =>
+    easiOption.CacheConfiguration.UseRedis(option =>
     {
         option.Host = "Redis_Host_address";
         option.Port = 6379;  //Redis Server Port

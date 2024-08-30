@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BabyCaptcha',
+  title: 'EasiCaptcha',
   tagline: '',
   favicon: 'img/baby_logo_.png',
 
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'BabyCaptcha', // Usually your GitHub org/user name.
-  projectName: 'babycaptcha.github.io', // Usually your repo name - for custom domain it will be /
+  organizationName: 'EasiCaptcha', // Usually your GitHub org/user name.
+  projectName: 'easicaptcha.github.io', // Usually your repo name - for custom domain it will be /
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -70,7 +70,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Baby Captcha',
+        title: 'Easi Captcha',
         logo: {
           alt: 'My Site Logo',
           src: 'img/baby_logo_.png', //logo address for captcha

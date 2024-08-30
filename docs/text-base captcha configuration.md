@@ -8,10 +8,10 @@ One of the types of CAPTCHA supported by this library is the Text-Based CAPTCHA.
 
 ```csharp
 
-builder.Services.AddBabyCaptcha(babyOption =>
+builder.Services.AddEasiCaptcha(easiOption =>
 {
 
-    babyOption.ImageDrawingConfiguration.Config(option =>
+    easiOption.ImageDrawingConfiguration.Config(option =>
     {
        option.CaptchaLenght = 5;
        option.FontSize = 29;
@@ -20,7 +20,7 @@ builder.Services.AddBabyCaptcha(babyOption =>
        option.Height = 50;
        option.NoiseRate = 200;
        option.DrawLines = 3;
-       option.BackgroundColor = new BabyColor[] { BabyColor.FromRgb(0, 0, 0) };
+       option.BackgroundColor = new EasiColor[] { EasiColor.FromRgb(0, 0, 0) };
        ....//Other option
        
 

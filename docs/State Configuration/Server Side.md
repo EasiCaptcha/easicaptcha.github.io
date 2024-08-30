@@ -12,10 +12,10 @@ As mentioned, when the CAPTCHA creation service is called, the system generates 
 
 ```csharp
 
-builder.Services.AddBabyCaptcha(babyOption =>
+builder.Services.AddEasiCaptcha(easiOption =>
 {
 
-    babyOption.StateConfiguration.UseServerSideState(option =>
+    easiOption.StateConfiguration.UseServerSideState(option =>
     {
         option.Key = "cookie_key";
         option.Expires = TimeSpan.FromMinutes(10);

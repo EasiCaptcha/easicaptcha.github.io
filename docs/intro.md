@@ -4,15 +4,15 @@ slug: /
 
 # Introduction
 
-Welcome to the documentation for **BabyCaptcha** library, a robust and easy-to-use CAPTCHA solution designed to help developers secure their applications from automated attacks and spam. Whether you're working on a web application, a mobile app, or any other software that requires user verification, our library provides a flexible and customizable way to integrate CAPTCHA into your projects.
+Welcome to the documentation for **EasiCaptcha** library, a robust and easy-to-use CAPTCHA solution designed to help developers secure their applications from automated attacks and spam. Whether you're working on a web application, a mobile app, or any other software that requires user verification, our library provides a flexible and customizable way to integrate CAPTCHA into your projects.
 
 ## What is CAPTCHA?
 
 CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a type of challenge-response test used in computing to determine whether or not the user is human. This test is critical in preventing automated scripts (bots) from accessing services in ways that could compromise security, data integrity, and user experience.
 
-## Why Choose BabyCaptcha?
+## Why Choose EasiCaptcha?
 
-Our CAPTCHA library stands out for its ease of integration, extensive customization options, and strong emphasis on security. Whether you're looking for a simple CAPTCHA to add to your contact form or a more complex solution for multi-step user verification, **BabyCaptcha** offers a range of features to meet your needs.
+Our CAPTCHA library stands out for its ease of integration, extensive customization options, and strong emphasis on security. Whether you're looking for a simple CAPTCHA to add to your contact form or a more complex solution for multi-step user verification, **EasiCaptcha** offers a range of features to meet your needs.
 
 ### Key Features
 
@@ -28,5 +28,5 @@ Our CAPTCHA library stands out for its ease of integration, extensive customizat
 
 ## Who Should Use This Library?
 
-**BabyCaptcha** is ideal for developers looking for a reliable CAPTCHA solution that balances security with user experience. Whether you're building a small personal project or a large-scale enterprise application, this library provides the tools you need to keep your application secure without frustrating legitimate users.
+**EasiCaptcha** is ideal for developers looking for a reliable CAPTCHA solution that balances security with user experience. Whether you're building a small personal project or a large-scale enterprise application, this library provides the tools you need to keep your application secure without frustrating legitimate users.
 
