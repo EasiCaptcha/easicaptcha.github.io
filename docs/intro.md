@@ -1,8 +1,11 @@
 ---
 slug: /
 headTags:
-  - name: "google-site-verification"
-    content: "Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE"
+  - tagName: "meta"
+    attributes:
+      name: "google-site-verification"
+      content: "Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE"
+
 ---
 
 # Introduction to EasiCaptcha: The Cross-Platform .NET CAPTCHA Library

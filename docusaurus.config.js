@@ -38,11 +38,13 @@ const config = {
 
   headTags: [
     {
-      name: 'google-site-verification',
-      content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE',
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE',
+      },
     },
   ],
-
   presets: [
     [
       'classic',
