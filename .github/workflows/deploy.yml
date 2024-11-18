@@ -33,6 +33,11 @@ jobs:
       run: |
         cp sitemap.xml ./build/    
 
+    - name: Copy robots.txt file
+      run: |
+        cp robots.txt ./build/  
+        
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
