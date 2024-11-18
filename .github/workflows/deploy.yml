@@ -28,6 +28,10 @@ jobs:
     - name: Copy Google Site Verification HTML
       run: |
         cp googlefdcf069da19d4f26.html ./build/
+        
+    - name: Copy site map Site 
+      run: |
+        cp sitemap.xml ./build/    
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
