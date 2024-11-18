@@ -35,6 +35,14 @@ const config = {
     locales: ['en'],
   },
 
+
+  headTags: [
+    {
+      name: 'google-site-verification',
+      content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE',
+    },
+  ],
+
   presets: [
     [
       'classic',
