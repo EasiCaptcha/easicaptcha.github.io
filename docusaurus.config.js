@@ -41,10 +41,27 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'google-site-verification',
-        content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE',
+        content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE', // Your Google site verification code
       },
     },
-  ],
+    {
+      tagName: 'script',
+      attributes: {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-KE0E0Q3V3J', // Your Google Analytics 4 ID
+      },
+    },
+    {
+      tagName: 'script',
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KE0E0Q3V3J'); // Your Google Analytics 4 ID
+      `,
+    },
+  ],  
   presets: [
     [
       'classic',
