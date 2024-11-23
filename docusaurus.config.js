@@ -51,7 +51,13 @@ const config = {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-E63X3J6C47', // Your Google Analytics 4 ID
       },
     },
-
+    {
+      tagName: 'script',
+      attributes: {
+        async: 'true', // Make sure async is a string
+        src: 'https://www.googletagmanager.com/gtm.js?id=GTM-MC3R92B5',
+      },
+    },
     {
       tagName: 'script',
       innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -60,7 +66,6 @@ const config = {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-MC3R92B5');`,
     },
-
     {
       tagName: 'noscript',
       innerHTML: `
@@ -68,7 +73,6 @@ const config = {
           height="0" width="0" style="display:none;visibility:hidden"></iframe>
       `,
     },
-
     {
       tagName: 'script',
       attributes: {
