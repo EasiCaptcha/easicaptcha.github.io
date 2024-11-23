@@ -48,7 +48,7 @@ const config = {
       tagName: 'script',
       attributes: {
         async: 'true', // The "async" attribute must be a string ('true'), not a boolean.
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-KE0E0Q3V3J', // Your Google Analytics 4 ID
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-E63X3J6C47', // Your Google Analytics 4 ID
       },
     },
     {
@@ -59,7 +59,7 @@ const config = {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-KE0E0Q3V3J'); // Your Google Analytics 4 ID
+          gtag('config', 'G-E63X3J6C47'); // Your Google Analytics 4 ID
         `,
       },
     },
