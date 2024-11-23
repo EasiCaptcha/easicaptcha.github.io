@@ -38,13 +38,6 @@ const config = {
 
   headTags: [
     {
-      tagName: 'meta',
-      attributes: {
-        name: 'google-site-verification',
-        content: 'Abg6JsRKdP9dE02oVk4JT8AksyrdK6VIldUQAhTA4oE', // Your Google site verification code
-      },
-    },
-    {
       tagName: 'script',
       attributes: {
         async: 'true', // The "async" attribute must be a string ('true'), not a boolean.
@@ -62,6 +55,21 @@ const config = {
           gtag('config', 'G-E63X3J6C47'); // Your Google Analytics 4 ID
         `,
       },
+    },
+    {
+      tagName: 'script',
+      innerHTML: `
+        (function(w,d,s,l,i){
+          w[l]=w[l]||[]; 
+          w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+          var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MC3R92B5');
+      `,
+      type: 'text/javascript',
     },
   ],  presets: [
     [
