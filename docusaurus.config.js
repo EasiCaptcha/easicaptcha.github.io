@@ -77,16 +77,13 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        blog: false,
+        blog: false, // Keep blog disabled as in your configuration
         theme: {
           customCss: './src/css/custom.css',
+        },
+        // Add Google Tag Manager configuration here
+        googleTagManager: {
+          containerId: 'GTM-MC3R92B5', // Replace with your GTM container ID
         },
       }),
     ],
