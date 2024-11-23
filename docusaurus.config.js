@@ -47,22 +47,23 @@ const config = {
     {
       tagName: 'script',
       attributes: {
-        async: true,
+        async: 'true', // The "async" attribute must be a string ('true'), not a boolean.
         src: 'https://www.googletagmanager.com/gtag/js?id=G-KE0E0Q3V3J', // Your Google Analytics 4 ID
       },
     },
     {
       tagName: 'script',
-      innerHTML: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      attributes: {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-        gtag('config', 'G-KE0E0Q3V3J'); // Your Google Analytics 4 ID
-      `,
+          gtag('config', 'G-KE0E0Q3V3J'); // Your Google Analytics 4 ID
+        `,
+      },
     },
-  ],  
-  presets: [
+  ],  presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
